@@ -1,0 +1,49 @@
+
+body {
+
+  background-color:;
+}
+
+#main {
+  margin: auto;
+  width: 70%;
+  background-color: #b0e0e6;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+nav {
+  width: 100%;
+  height: 25px;
+  background-color: orange;
+}
+section {
+  width: 100%;
+  height: 200px;
+  background-color:yellow;
+}
+article {
+  width: 100%;
+  height: 300px;
+  background-color:green;
+}
+aside {
+  float: left;
+  width: 20%;
+  height: 600px;
+  background-color:grey;
+}
+#content {
+  float: left;
+  width: 80%;
+  height: 600px;
+  background-color:purple;
+}
+footer {
+  clear: both;
+  width: 100%;
+  height: 25px;
+  background-color:blue;
+}
