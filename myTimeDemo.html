@@ -5,25 +5,25 @@
   <title>Just a clock</title>
 <style>
   body {background-color: ;}
-  #main {margin:auto; width: 80%;}
-  .blank01 {height: 200px;}
-  #lazyE {float: right;}
 </style>
 </head>
 <body>
   <div id="main">
-    <div class="blank01"></div>
-    <img id="hour_10" src="pic/zero.png" width="150" height="200"></img>
-    <img id="hour_1" src="pic/zero.png" width="150" height="200"></img>
-    <img src="pic/colon.png" alt=":" width="150" height="200"></img>
-    <img id="min_10" src="pic/zero.png" width="150" height="200"></img>
-    <img id="min_1" src="pic/zero.png" width="150" height="200"></img>
-    <img src="pic/colon.png" alt="1" width="150" height="200"></img>
-    <img id="sec_10" src="pic/zero.png" width="150" height="200"></img>
-    <img id="sec_1" src="pic/zero.png" width="150" height="200"></img>
-    <div class="blank01"></div>
-    <img id="lazyE" src="pic/Presented_by_lazyE.png" width="200" height="50"></img>
+    <div id="clockcol">
+      <img class="clock" id="hour_10" src="pic/zero.png" width="120" height="160"></img>
+      <img class="clock" id="hour_1" src="pic/zero.png" width="120" height="160"></img>
+      <img class="clock" id="colon_1" src="pic/colon.png" alt=":" width="150" height="200"></img>
+      <img class="clock" id="min_10" src="pic/zero.png" width="150" height="200"></img>
+      <img class="clock" id="min_1" src="pic/zero.png" width="150" height="200"></img>
+      <img class="clock" id="colon_2" src="pic/colon.png" alt=":" width="150" height="200"></img>
+      <img class="clock" id="sec_10" src="pic/zero.png" width="150" height="200"></img>
+      <img class="clock" id="sec_1" src="pic/zero.png" width="150" height="200"></img>
+    </div>
+    <div id="lazyEcol">
+      <img id="lazyE" src="pic/Presented_by_lazyE.png" width="200" height="50"></img>
+    </div>
   </div>
   <script src="myTimeDemo.js"></script>
+  <script src="myTimeCss.js"></script>
 </body>
 <html>
