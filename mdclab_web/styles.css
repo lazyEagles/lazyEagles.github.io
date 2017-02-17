@@ -5,6 +5,134 @@
 	box-sizing: border-box;
 }
 
+/* Mobile Styles */
+
+@media only screen and (max-width: 400px) {
+	body {
+		font-family: 'Roboto', sans-serif;
+		position: relative;
+		background-color: #EAEAEA;
+	}
+	
+	.header {
+		position: fixed;
+		display: flex;
+		justify-content: space-around;
+	
+		width: 100%;
+		padding: 10px;
+		background: #212121;
+	
+		color: #FAFAFA;
+		font-family: 'Roboto', sans-serif;
+	
+		z-index: 1;
+	}
+	
+	a:link, a:visited {
+		color: #FAFAFA;
+		text-decoration: none;
+	}
+	
+	a:hover, a:active {
+		color: #E8E8E8;
+		text-decoration: none;
+	}
+	
+	.menu {
+		font-family: 'Ubuntu Condensed', sans-serif;
+	}
+	
+	.menu > li {
+		display: inline;
+		margin-right: 10px;
+	}
+	
+	.menu > li:last-of-type {
+		margin-right: 0;
+	}
+	
+	.section {
+		position: relative;
+		top: 50px;
+		text-align: center;
+	}
+	
+	.abouts, .researches, .publications, .members {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	
+		width: 100%;
+		position: relative;
+		top: 50px;
+		padding: 10px;
+		margin: 10px auto 50px auto;
+	
+		text-align: center;
+	}
+	
+	.about, .research, .member {
+		width: 320px;
+		border: 1px solid #888888;
+		border-radius: 5px;
+		margin: 10px;
+		text-align: center;
+		background-color: #FEFEFE;
+		box-shadow: 5px 5px 5px #888888;
+	}
+	
+	.photo {
+		width:90%;
+		margin: 10px auto 0px auto;
+	}
+	
+	.publication {
+		width: 900px;
+		border: 1px solid #888888;
+		border-radius: 5px;
+		margin: 10px;
+		text-align: center;
+		background-color: #FEFEFE;
+		box-shadow: 5px 5px 5px #888888;
+	}
+	
+	.problems, .papers {
+		width: 80%;
+		padding: 20px;
+		margin: 0 auto 10px auto;
+		text-align: left;
+		font-family: 'Slabo 27px', sans-serif;
+	}
+	
+	.container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.center {
+		text-align: center;
+	}
+	
+	h1, h2 {
+		margin-bottom: 10px;
+	}
+	
+	p {
+		padding:5px 10px 5px 10px;
+	}
+	
+	.algorithm {
+		padding: 20px;
+		border: 1px solid;
+		width: 80%;
+		margin: auto;
+		text-align: left;
+	}
+	
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	position: relative;
