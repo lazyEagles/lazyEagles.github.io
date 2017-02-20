@@ -1,0 +1,65 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Slabo 27px', sans-serif;
+	color: #313131;
+	position: relative;
+	/*background-color: #D0FECF;*/
+	background-color: #EAEAEA;
+	width: 100%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 400px) {
+	.info, .cv, .publication {
+		background-color: #EAEAEA;
+		margin: auto;
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 401px) {
+	.info, .cv, .publication {
+		background-color: #EAEAEA;
+		margin: auto;
+		width: 60%;
+	}
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	padding: 0 0 0 5px;
+}
+
+h2 {
+	padding: 0 0 0 10px;
+}
+
+.no-bullet {
+	list-style-type: none;
+}
+
+ul, ol {
+	width: 100%
+}
+
+li {
+	padding: 0 0 10px 0;
+}
+
+a:link, a:visited {
+	color: #4C6983;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #1B5A7A;
+	text-decoration: none;
+}
