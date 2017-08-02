@@ -183,7 +183,7 @@ a:hover, a:active {
 	text-align: center;
 }
 
-.abouts, .researches, .publications, .members {
+.abouts, .researches, .publications, .members, .goals {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -222,12 +222,33 @@ a:hover, a:active {
 	box-shadow: 5px 5px 5px #888888;
 }
 
+.goal {
+	width: 900px;
+	border: 1px solid #888888;
+	border-radius: 5px;
+	margin: 10px;
+	text-align: left;
+	background-color: #FEFEFE;
+	box-shadow: 5px 5px 5px #888888;
+}
+
 .problems, .papers {
 	width: 80%;
 	padding: 20px;
 	margin: 0 auto 10px auto;
 	text-align: left;
 	font-family: 'Slabo 27px', sans-serif;
+}
+
+.alumnis {
+	width: 90%;
+	padding: 20px;
+	margin: 0 auto 10px auto;
+	text-align: left;
+}
+
+.alumnis > li {
+	margin-bottom: 10px;
 }
 
 .container {
